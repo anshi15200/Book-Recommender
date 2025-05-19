@@ -6,8 +6,8 @@ from io import BytesIO
 import requests
 from src.recommend import recommend
 
-# Define path to artifact files
-artifact_path = 'notebooks/artifacts/'
+# Define path to artifact files (updated)
+artifact_path = 'artifacts/'
 
 # Load precomputed files
 popular_df = pickle.load(open(artifact_path + 'popular.pkl', 'rb'))

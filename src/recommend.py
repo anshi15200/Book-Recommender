@@ -27,3 +27,4 @@ def recommend(book_name, pt, books, similarity_scores, top_n=5):
             recommendations.append((title, author, valid_image))
 
     return recommendations
+
